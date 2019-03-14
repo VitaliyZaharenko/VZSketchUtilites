@@ -1,0 +1,19 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Hide all layers exсept images",
+      "identifier": "hide-all-except-images",
+      "script": "./my-command.js",
+      "shortcut" : "ctrl alt h"
+    }
+  ],
+  "menu": {
+    "title": "VZ-Sketch-Utilites",
+    "items": [
+      "hide-all-except-images"
+    ]
+  }
+}
